@@ -1,1 +1,1 @@
-npm web
+web: npm web
