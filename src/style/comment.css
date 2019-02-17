@@ -1,0 +1,41 @@
+.comment{
+    flex: 2;
+    margin: 5px;
+}
+
+.form_comment{
+    position: relative;
+}
+
+.form_comment_textarea{
+    width: 320px;
+    height: 100px;
+    border: 1px solid #CEE1E8;
+    margin-bottom: 30px;
+    padding:4px;
+    border-radius: 5px;
+}
+
+.form_comment_textarea:focus{
+    border-color: grey;
+}
+
+.form_comment_button{
+    width: 100px;
+    height: 30px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text_comment{
+    margin: 5px 0 10px 0;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    font-size: 0.9em;
+}

@@ -1,17 +1,24 @@
 {
   "name": "hebronhofttesttask",
   "version": "0.1.0",
+  "author": "Helen Velytchenko",
   "private": true,
   "dependencies": {
+    "npm": "^6.8.0",
     "react": "^16.8.1",
+    "react-cookie": "^3.0.8",
     "react-dom": "^16.8.1",
-    "react-scripts": "2.1.5"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "serve": "^10.1.2"
   },
   "scripts": {
+    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,0 +1,14 @@
+.listissues{
+    margin: 10px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.listissues li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.listissues li a{
+    text-decoration: none;
+}

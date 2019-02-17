@@ -1,0 +1,20 @@
+.projects{
+    width: 30%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.projects li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.projects li a{
+    text-decoration: none;
+}
+
+h3{
+    text-transform: uppercase;
+}
