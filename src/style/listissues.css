@@ -1,7 +1,11 @@
 .listissues{
-    margin: 10px;
+    margin-left: 16px;
     flex: 1;
     box-sizing: border-box;
+}
+
+.listissues ul{
+    padding-left: 5px;
 }
 
 .listissues li{
